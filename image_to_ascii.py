@@ -39,7 +39,6 @@ draw = ImageDraw.Draw(output_image)
 # Load monospace font
 font = ImageFont.truetype("~/library/fonts/RobotoMono-Regular.ttf", 12)
 
-# Convert int to char
 for y in range(height):
     for x in range(width):
         # Get the brightness value
@@ -51,4 +50,3 @@ for y in range(height):
         draw.text((x * 10, y * 10), char, font=font, fill=(0, 0, 0))
 
 output_image.show()
-output_image.save("girl_with_a_pearl_earring_ascii.jpg")
