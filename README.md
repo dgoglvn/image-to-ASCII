@@ -1,5 +1,5 @@
 # image-to-ASCII
-A command-line interface for converting images into ACII art.
+A command-line interface for converting images into [ASCII art](https://en.wikipedia.org/wiki/ASCII_art).
 
 | Original                                   | New ASCII image                                  |
 | ------------------------------------------ | ------------------------------------------------ |
